@@ -1,0 +1,57 @@
+.information {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-color: #171717;
+}
+.information > .name {
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+.information > .career {
+    color: orange;
+    margin-top: -15px;
+}
+.information > .website {
+    color: gray;
+    margin-top: -5px;
+    font-size: 13px;
+}
+.information > .button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+.information > .button > .email {
+    display: flex;
+    gap: 5px;
+    padding: 6px 15px 6px 15px;
+    border-radius: 12px;
+    transition: transform .2s;
+}
+.information > .button > .linkedin {
+    background-color: aquamarine;
+    display: flex;
+    gap: 5px;
+    padding: 6px 15px 6px 15px;
+    border-radius: 12px;
+    transition: transform .2s;
+}
+.information > .button > .email:hover {
+    background-color: red;
+    color: white;
+    transform: scale(1.25);
+    transition-duration: 200ms;
+}
+.information > .button > .linkedin:hover {
+    background-color: aqua;
+    transform: scale(1.25);
+    transition-duration: 200ms;
+}
+.information > .button > .email > .email-icon {
+    width: 15px;
+}
+.information > .button > .linkedin > .linkedin-icon {
+    width: 15px;
+}

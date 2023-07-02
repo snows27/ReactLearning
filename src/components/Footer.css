@@ -1,0 +1,45 @@
+.footer {
+    background-color: #121212;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer > .twitter-icon {
+    width: 25px;
+    height: 25px;
+    transition: transform .2s;
+}
+.footer > .facebook-icon {
+    width: 25px;
+    height: 25px;
+    transition: transform .2s;
+}
+.footer > .instagram-icon {
+    width: 25px;
+    height: 25px;
+    transition: transform .2s;
+}
+.footer > .github-icon {
+    width: 25px;
+    height: 25px;
+    transition: transform .2s;
+}
+.footer > .github-icon:hover {
+    transform: scale(1.5);
+    transition-duration: 200ms;
+}
+.footer > .twitter-icon:hover {
+    transform: scale(1.5);
+    transition-duration: 200ms;
+    
+}
+.footer > .facebook-icon:hover {
+    transform: scale(1.5);
+    transition-duration: 200ms;
+}
+.footer > .instagram-icon:hover {
+    transform: scale(1.5);
+    transition-duration: 200ms;
+}
