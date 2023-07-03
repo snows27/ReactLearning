@@ -8,6 +8,8 @@
     width: 300px;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 
 }
 .footer > .twitter-icon {
