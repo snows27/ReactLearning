@@ -2,6 +2,8 @@
     font-family: 'Inter', sans-serif;
     background-color: #171717;
     padding-bottom: 20px;
+    width: 300px;
+
 }
 .interests > .title {
     color: white;
