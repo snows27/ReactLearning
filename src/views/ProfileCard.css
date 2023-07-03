@@ -1,6 +1,6 @@
-.card-container {
+.card {
  width: 300px;
- position: absolute;
- left: 43%;
- top: 4%;
+ position: relative;
+ top: 70px;
+ margin: 0 auto;
 }
